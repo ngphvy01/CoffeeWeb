@@ -1124,6 +1124,16 @@ body.nav-active {
   left: 0;
 }
 
+.drop-down{
+  background-color: var(--white);
+  color: var(--black);
+}
+.drop-down:hover{
+  background-color: var(--yellow-secondary);
+  color: var(--black);
+}
+
+
 .location-selection-list {
   display: flex;
   gap: 20px;

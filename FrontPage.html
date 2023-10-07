@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,22 +15,24 @@
     <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body id="top">
     <!-- PRELOADER -->
     <div class="preload" data-preload>
-      <img src="./assets/icons/logo.svg" width="160" height="50">
-      <br>
+        <img src="./assets/icons/logo.svg" width="160" height="50">
+        <br>
         <p class="text">Life is Bubble</p>
     </div>
 
@@ -99,7 +102,7 @@
                 <ul class="sliderPart-slider" data-sliderPart-slider>
                     <li class="slider-item active" data-sliderPart-slider-item>
                         <div class="slider-bg">
-                            <img src="./assets/images/slider1.png" width="1880" height="600" alt="" >
+                            <img src="./assets/images/slider1.png" width="1880" height="600" alt="">
                         </div>
 
                         <p class="label-1 section-subtitle slider-reveal">Enjoy the Bali style</p>
@@ -151,7 +154,7 @@
 
                 <button class="slider-btn next" aria-label="slide to next" data-next-btn>
                     <ion-icon name="chevron-forward"></ion-icon>
-                  </button>
+                </button>
 
             </section>
 
@@ -159,7 +162,7 @@
 
             <section class="section menu" aria-label="menu-label" id="menu">
                 <div class="container grad">
-                  <br><br>
+                    <br><br>
                     <p class="section-subtitle text-center body-4">Special Selection</p>
                     <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
                     <br>
@@ -167,36 +170,36 @@
 
                     <a href="#" class="btn btn-secondary">
                         <span class="text text-1">View All Menu</span>
-            
+
                         <span class="text text-2" aria-hidden="true">View All Menu</span>
                     </a>
-            
-                    
-                        <br><br>
-                      </div>
+
+
+                    <br><br>
+                </div>
             </section>
 
             <!-- RESERVATION -->
             <section class="section reservation" aria-label="reservation-label" id="reservation">
                 <div class="container">
-                  <br><br>
-                 
+                    <br><br>
+
                     <div class="form reservation-form">
 
                         <form action="" class="form-left">
-                            <h2 class="headline-1 text-center">Online Reservation</h2>                          
+                            <h2 class="headline-1 text-center">Online Reservation</h2>
 
                             <div class="location-selection-list">
                                 <span class="body-4 text">Choose Location</span>
                                 <span class="location-selection-item active" data-location>TP.Ho Chi Minh</span>
                                 <span class="location-selection-item" data-location>Nha Trang</span>
                                 <span class="location-selection-item" data-location>Da Nang</span>
-                     
+
                             </div>
                             <div class="input-wrapper">
                                 <div class="icon-wrapper">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    
+
                                     <select name="person" class="input-field" id="selectedPeople">
                                         <option value="1-person">1</option>
                                         <option value="2-person">2</option>
@@ -208,20 +211,20 @@
 
                                 <div class="icon-wrapper">
                                     <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-                
+
                                     <input type="date" name="reservation-date" class="input-field" id="selectedDate">
-                
+
                                     <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                                 </div>
 
                                 <div class="icon-wrapper">
                                     <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-                
+
                                     <select name="person" class="input-field" id="selectedTime">
-                                    <option value="08:00am">08 : 00 am</option>
-                                    <option value="08:00am">10 : 00 am</option>
+                                        <option value="08:00am">08 : 00 am</option>
+                                        <option value="08:00am">10 : 00 am</option>
                                     </select>
-                
+
                                     <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                                 </div>
 
@@ -229,53 +232,45 @@
                                     <span class="text text-1">Book A Table</span>
                                     <span class="text text-2" style="color: var(--yellow-sixth);">Book A Table</span>
                                 </button>
-                            </div> 
+                            </div>
                         </form>
                     </div>
-                   
-                    <ul  class="restaurant-list" id="restaurantList"></ul>
-               
 
-                  <img src="./assets/images/shape-1.png" width="208" height="178" loading="lazy" alt="shape"
-                  class="shape shape-1">
-                    
+                    <ul class="restaurant-list" id="restaurantList"></ul>
+
+
+                    <img src="./assets/images/shape-1.png" width="208" height="178" loading="lazy" alt="shape"
+                        class="shape shape-1">
+
                 </div>
             </section>
         </article>
     </main>
 
 
-    <!-- 
-    - #FOOTER
-  -->
+    <!--  #FOOTER -->
 
+    <footer class="footer">
+        <div class="container" style="display: flex; gap: 20px; align-items: center;">
+            <a href="#" class="logo">
+                <img src="./assets/icons/logo.svg" width="80" height="30">
+            </a>
+            <!-- <h2 class="headline-1 title-1" style="color: var(--green-primary);">LIFE IS BUBBLE</h2> -->
+        </div>
+    </footer>
 
+    <!--  #BACK TO TOP -->
 
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
 
+    <script src="./assets/js/script.js"></script>
 
-
-<!-- 
-  - #BACK TO TOP
--->
-
-<a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
-  <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-</a>
-
-
-
-
-
-<!-- 
-  - custom js link
--->
-<script src="./assets/js/script.js"></script>
-
-<!-- 
-  - ionicon link
--->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
